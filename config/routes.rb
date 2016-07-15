@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root :to => "home#index"
 
+  # Calling /restaurents.json will give an array of all restaurants ordered by review_count.
+  get 'restaurants' => 'restaurants#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

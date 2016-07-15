@@ -26,7 +26,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'jquery-rails'
+# jquery-rails is already used on the top, so commenting below jquery-rails
+# gem 'jquery-rails'
+
 gem 'rest-client'
 
 # Use ActiveModel has_secure_password
